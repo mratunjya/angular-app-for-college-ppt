@@ -1,1 +1,120 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;bold;700&display=swap");
+
+:root {
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  font-weight: 500;
+}
+
+html,
+body {
+  background-color: #f5f5f5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+div,
+span {
+  padding: 0;
+  margin: 0;
+}
+
+/* Path: src\app\app.component.css */
+/* Styles for your app go here */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+h6 {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #333;
+}
+
+p {
+  font-size: 1rem;
+  color: #333;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+/* Path: src\app\components\header\header.component.css */
+/* Styles for your app go here */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Path: src\app\components\footer\footer.component.css */
+/* Styles for your app go here */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+footer h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}

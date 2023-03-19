@@ -1,0 +1,96 @@
+<p>Angular is a framework for building client applications.</p>
+<p>This is a simple example of a component.</p>
+<p>The component is the most basic building block of an Angular application.</p>
+<p>
+  A component controls a portion of the screen — a view — through its associated
+  template.
+</p>
+<p>A component is made up of three things:</p>
+<ul>
+  <li>A component class that handles data and functionality.</li>
+  <li>An HTML template that determines the UI.</li>
+  <li>Component-specific styles that define the look and feel.</li>
+</ul>
+<p>Here's an example of a component's file structure:</p>
+<pre>
+    app
+    ├── app.component.css
+    ├── app.component.html
+    ├── app.component.spec.ts
+    └── app.component.ts
+  </pre
+>
+<p>
+  The CLI generated three files for the AppComponent, and a fourth file for the
+  application routing.
+</p>
+<p>The files are the following:</p>
+<ul>
+  <li>
+    <code>app.component.ts</code>— the component class code, written in
+    TypeScript.
+  </li>
+  <li>
+    <code>app.component.html</code>— the component template, written in HTML.
+  </li>
+  <li><code>app.component.css</code>— the component's private CSS styles.</li>
+  <li>
+    <code>app.component.spec.ts</code>— the component test file, written in
+    Jasmine.
+  </li>
+</ul>
+<p>
+  The CLI generated a <code>root</code> component that is named
+  <code>AppComponent</code> and displays the application title.
+</p>
+<p>
+  The component class is where you handle data and functionality for the view.
+</p>
+<p>
+  The template is where you define how the view is presented to the user. The
+  template and styles are optional if all you're doing is generating the
+  application shell.
+</p>
+<p>
+  The CLI generated the root <code>AppComponent</code> in the
+  <code>src/app</code> folder. You can find the <code>app.component.ts</code>
+  file there.
+</p>
+<p>
+  The CLI also generated <code>app.module.ts</code>, which is the root module of
+  the application. It tells Angular how to assemble the application. Initially
+  <code>app.module.ts</code> declares only the <code>AppComponent</code>. As you
+  add more components to the application, they must be declared here.
+</p>
+<p>
+  The <code>app.component.ts</code> file contains the following import
+  statements that import the <code>Component</code> symbol from the Angular core
+  library and the <code>environment</code> object from the
+  <code>environments</code> folder.
+</p>
+<pre style="color: red">
+    import &lcub; Component &rcub; from '@angular/core';
+    import &lcub; environment &rcub; from '../environments/environment';
+</pre>
+<p>
+  The <code>@Component</code> decorator identifies <code>AppComponent</code> as
+  an Angular component. The decorator provides metadata about the component,
+  including its templates, styles, and a selector.
+</p>
+<p>
+  The CLI generated the component's selector, <code>app-root</code>, and the
+  <code>index.html</code> file that references that selector.
+</p>
+<p>
+  The <code>templateUrl</code> and <code>styleUrls</code> properties tell
+  Angular where to find the component's template and style files.
+</p>
+<p>
+  The component definition also exports the class, <code>AppComponent</code>, so
+  that you can use it in other components' templates.
+</p>
+<p>
+  The <code>AppComponent</code> class contains a <code>title</code> property.
+  The value of this property is displayed in the application by using the
+  interpolation syntax in the <code>index.html</code> template.
+</p>
