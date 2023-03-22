@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./page-content.component.css']
 })
 export class PageContentComponent {
-
+  title = 'Page Content';
 }

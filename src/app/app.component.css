@@ -1,10 +1,27 @@
-.app-comp {
-  max-width: 75rem;
-  width: 86.67%;
-  margin: 0 auto 5rem;
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
   gap: 2rem;
+  overflow: hidden;
 }
 
-app-page-content {
+.col-2 {
+  width: 100%;
+  overflow: hidden;
   gap: 1rem;
+}
+
+nav {
+  width: 30%;
+  min-width: 30%;
+}
+
+app-page-content,
+app-first {
+  width: 60%;
+  max-width: 60%;
 }

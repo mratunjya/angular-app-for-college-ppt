@@ -1,0 +1,10 @@
+.app-comp {
+  max-width: 75rem;
+  width: 86.67%;
+  margin: 0 auto 5rem;
+  gap: 2rem;
+}
+
+app-page-content {
+  gap: 1rem;
+}
